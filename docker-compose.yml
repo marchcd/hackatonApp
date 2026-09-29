@@ -34,13 +34,6 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
-  
-  # cloudflare:
-  #   image: cloudflare/cloudflared:latest
-  #   container_name: hackaton_cloudflare
-  #   restart: always
-  #   command: tunnel --url http://app:8080
-  #   depends_on:
-  #     - app
+
 volumes:
   pgdata:
