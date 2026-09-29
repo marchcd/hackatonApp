@@ -144,7 +144,7 @@ cp .env.example .env
 3. Дождаться в логах строк `Migrations applied successfully` и
    `max bot: started`.
 4. В MAX найти бота по ссылке `https://max.ru/<username>/start`
-   (см. раздел 15 — точный `username` указан на первом слайде презентации).
+   (см. раздел 15 — точный `username` указан на слайде презентации).
 5. Отправить `/start` — ожидается приветственное сообщение со списком
    команд.
 6. Отправить `/cities` — ожидается список городов, реально присутствующих
@@ -188,7 +188,3 @@ docker compose down
 docker compose down -v
 ```
 
-## 15. Ссылки для проверки
-
-- Бот в MAX: `<https://max.ru/USERNAME/start>`
-- Git-репозиторий: `<ссылка>`, commit hash: `<hash>`
